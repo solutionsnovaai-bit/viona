@@ -1,0 +1,15 @@
+{
+  "framework": null,
+  "installCommand": "echo site desativado",
+  "buildCommand": "echo site desativado",
+  "outputDirectory": "desativado",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}
